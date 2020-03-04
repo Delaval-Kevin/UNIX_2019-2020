@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GereProcessus</class>
+ <widget class="QMainWindow" name="GereProcessus">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gere étudiants.</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>150</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Premier processus :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNom1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>150</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Groupe à traiter:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNb1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>65</y>
+      <width>150</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nb d'étudiants traités :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>150</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Deuxième processus :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNom2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>150</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Groupe à traiter:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNb2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>135</y>
+      <width>150</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nb d'étudiants traités :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>150</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Troisième processus :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNom3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>150</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Groupe à traiter:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNb3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>205</y>
+      <width>150</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nb d'étudiants traités :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineNomGroupe1">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>40</y>
+      <width>120</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineNbEtud1">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>65</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineNomGroupe2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>110</y>
+      <width>120</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineNbEtud2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>135</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineNomGroupe3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>180</y>
+      <width>120</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineNbEtud3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>205</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonTerminer1">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>40</y>
+      <width>85</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Annuler</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonTerminer2">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>110</y>
+      <width>85</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Annuler</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonTerminer3">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>180</y>
+      <width>85</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Annuler</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonGo">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>85</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Go</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonEffacer">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>230</y>
+      <width>85</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Effacer</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonTerminer">
+    <property name="geometry">
+     <rect>
+      <x>315</x>
+      <y>230</y>
+      <width>85</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Terminer</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>420</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

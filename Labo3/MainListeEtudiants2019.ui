@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainListeEtudiants2019</class>
+ <widget class="QMainWindow" name="MainListeEtudiants2019">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lance 3 processus.</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="labelPremier">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>120</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Premier Groupe :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelSecond">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>150</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Deuxième Groupe :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelTroisieme">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>150</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Troisième Groupe :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelGroupe1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>35</y>
+      <width>150</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Groupe à traiter :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNbEtud1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>120</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Groupe à traiter :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelGroupe2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>115</y>
+      <width>120</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Groupe à traiter :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNbEtud2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>120</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Groupe à traiter :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelGroupe3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>120</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Groupe à traiter :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNbEtud3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>120</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Groupe à traiter :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonOk">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>255</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ok</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonEffacer">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>255</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Effacer</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonTerminer">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>255</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Terminer</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineGroupe1">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>30</y>
+      <width>120</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineNbEtud1">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>60</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineGroupe2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>110</y>
+      <width>120</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineNbEtud2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>140</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineGroupe3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>190</y>
+      <width>120</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineNbEtud3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>220</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

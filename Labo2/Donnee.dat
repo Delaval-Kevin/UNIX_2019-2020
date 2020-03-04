@@ -1,0 +1,22 @@
+typedef struct
+	{
+	char        Nom[40];
+	char        Mail[40];
+	int         AnneeNaissance;
+	char        AdrImage[40];
+	}   ELEMENT;
+
+ELEMENT Elm[] = 
+	{
+	{"Achille Talon","achille.talon@gMerce.com",1963,"AchileTalon.jpg"},
+	{"Gaston Lagaffe","gaston.lagaffe@gMerce.com",1957,"Gaston.jpeg"},
+	{"Lucien","lucien@gMerce.com",1979,"Lucien.jpeg"},
+	{"Robert Bidochon","robert.bidochon@gMerce.com", 1977,"RobertBidochon.jpeg"},
+	{"Mlle Jeanne","mademoiselleJeanne@gMerce.com",1957,"mademoiselleJeanne.jpeg"},
+	{"","",0,""},
+	{"","",0,""},
+	{"","",0,""},
+	{"","",0,""},
+	{"","",0,""}
+	};
+

@@ -1,0 +1,19 @@
+typedef struct
+	{
+	int		id;
+	char		Nom[40];
+	char		Mail[40];
+	} ELEMENT;
+
+ELEMENT Elm[] = 
+	{ 
+	{0,"",""},
+	{1,"aaa","aaa@gm.com"},
+	{2,"bbb","bbb@gm.com"},
+	{3,"ccc","ccc@gm.com"},
+	{4,"ddd","ddd@gm.com"},
+	{5,"eee","eee@gm.com"},
+	{0,"",""}
+	};
+	
+ELEMENT *Elem = &Elm[1];
