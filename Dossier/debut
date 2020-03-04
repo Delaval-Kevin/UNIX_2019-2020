@@ -1,0 +1,6 @@
+ipcrm -Q 0x1810
+echo RESET BD
+./CreationBd
+
+
+./Central
